@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\IDestroyable.cs" />
     <Compile Include="Assets\Scripts\MovementByKai.cs" />
     <Compile Include="Assets\Scripts\States.cs" />
+    <Compile Include="Assets\src\IBehavior.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
