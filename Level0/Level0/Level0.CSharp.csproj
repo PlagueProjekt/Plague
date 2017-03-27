@@ -76,12 +76,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Movement.cs" />
-    <Compile Include="Assets\Scripts\GameFigure.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\IDestroyable.cs" />
     <Compile Include="Assets\Scripts\MovementByKai.cs" />
     <Compile Include="Assets\Scripts\States.cs" />
+    <Compile Include="Assets\src\GameFigure.cs" />
+    <Compile Include="Assets\src\GameManager.cs" />
     <Compile Include="Assets\src\IBehavior.cs" />
+    <Compile Include="Assets\src\IDestroyable.cs" />
+    <Compile Include="Assets\src\Level.cs" />
+    <Compile Include="Assets\src\Tutorial.cs" />
+    <Compile Include="Assets\src\WalkingPlayer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
